@@ -10,11 +10,14 @@ class UserSeeder extends Seeder
 {
     public function run(): void
     {
+        $email = env('ADMIN_EMAIL', 'admin@admin.com');
+        $password = env('ADMIN_PASSWORD', 'admin123');
+
         User::updateOrCreate(
-            ['email' => 'admin@admin.com'],
+            ['email' => $email],
             [
                 'name' => 'Admin',
-                'password' => Hash::make('admin123'),
+                'password' => Hash::make($password),
             ]
         );
     }
