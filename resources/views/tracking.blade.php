@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracking</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{{ asset('css/classic.css') }}">
     <link rel="stylesheet" href="{{ asset('css/tracking.css') }}">
 </head>
@@ -144,5 +144,6 @@
     @endif
 </div>
 
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
