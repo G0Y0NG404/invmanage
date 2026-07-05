@@ -1,0 +1,301 @@
+/* === CLASSIC 2010 THEME === */
+body {
+  background: #e6e6e6 !important;
+  color: #000 !important;
+  font-family: Tahoma, Arial, Helvetica, sans-serif !important;
+  margin: 0;
+}
+
+/* --- SIDEBAR --- */
+#sidebar {
+  background: #003366;
+  border-right: 1px solid #002244;
+}
+#sidebar .border-b,
+#sidebar .border-t {
+  border-color: #002244 !important;
+}
+#sidebar nav a {
+  color: #8ab8d4 !important;
+  border-left: 3px solid transparent;
+  font-size: 12px;
+}
+#sidebar nav a:hover {
+  background: #002244 !important;
+  color: #fff !important;
+}
+#sidebar nav a.active {
+  background: #004080 !important;
+  color: #fff !important;
+  border-left-color: #FFCC00;
+}
+#sidebar .text-\\[\\#FF8C00\\] {
+  color: #fff !important;
+}
+#sidebar .bg-\\[\\#111\\] {
+  background: #004080 !important;
+}
+#sidebar .border-\\[\\#FF8C00\\] {
+  border-color: #FFCC00 !important;
+}
+.bg-\\[\\#111\\] {
+  background: #004080 !important;
+}
+
+/* --- Header / Page Title --- */
+h1, .page-title {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1 .text-\\[\\#FF8C00\\] {
+  color: #000 !important;
+}
+
+
+.border-\\[\\#1f1f1f\\] {
+  border-color: #ccc !important;
+}
+.text-\\[\\#eee\\] {
+  color: #000 !important;
+}
+.text-\\[\\#ccc\\] {
+  color: #000 !important;
+}
+.text-\\[\\#666\\] {
+  color: #000 !important;
+}
+.text-\\[\\#777\\] {
+  color: #000 !important;
+}
+.text-\\[\\#555\\] {
+  color: #000 !important;
+}
+.text-\\[\\#444\\] {
+  color: #000 !important;
+}
+.text-\\[\\#333\\] {
+  color: #000 !important;
+}
+.text-\\[\\#ddd\\] {
+  color: #000 !important;
+}
+.text-\\[\\#FF8C00\\] {
+  color: #000 !important;
+}
+h1 .text-\\[\\#FF8C00\\] {
+  color: #000 !important;
+}
+.text-\\[28px\\].font-bold.text-white,
+.text-2xl.font-bold.text-white {
+  color: #000 !important;
+}
+table thead th.text-white {
+  color: #fff !important;
+}
+
+/* --- KPI Numbers --- */
+.text-\\[28px\\] {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+/* --- Cards / Containers --- */
+.bg-\\[\\#0a0a0a\\] {
+  background: #f5f5f5 !important;
+}
+
+/* --- Tables --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+table thead th {
+  background: #003366;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  padding: 7px 10px;
+  border: 1px solid #002244;
+  font-size: 11px;
+}
+table tbody td {
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 12px;
+}
+table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+table tbody tr:hover {
+  background: #e8f0fe;
+}
+table .border-b-\\[\\#0a0a0a\\],
+table .border-b-\\[\\#1f1f1f\\] {
+  border-bottom: 1px solid #ddd !important;
+}
+table th.border-b-\\[\\#1f1f1f\\] {
+  border-bottom: 1px solid #002244 !important;
+}
+
+/* --- Status Badges --- */
+.bg-\\[\\#1a1000\\] {
+  background: #fff8e1 !important;
+  color: #000 !important;
+  border-color: #ffc107 !important;
+}
+.bg-\\[\\#1a0808\\] {
+  background: #f8d7da !important;
+  color: #000 !important;
+  border-color: #f5c6cb !important;
+}
+.bg-\\[\\#081a08\\] {
+  background: #d4edda !important;
+  color: #000 !important;
+  border-color: #c3e6cb !important;
+}
+.text-\\[\\#e74c3c\\] {
+  color: #000 !important;
+}
+.text-\\[\\#2ecc71\\] {
+  color: #000 !important;
+}
+.text-\\[\\#FF4500\\] {
+  color: #000 !important;
+}
+.text-\\[\\#721c24\\] {
+  color: #000 !important;
+}
+
+/* --- Buttons --- */
+.bg-\\[\\#FF8C00\\] {
+  background: #003366 !important;
+  font-weight: bold;
+  border: 1px solid #002244;
+  cursor: pointer;
+}
+.bg-\\[\\#FF8C00\\]:hover {
+  background: #002244 !important;
+}
+.border-\\[\\#FF8C00\\] {
+  border-color: #003366 !important;
+}
+
+/* --- Inputs --- */
+input, select, textarea {
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+  color: #333 !important;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #003366 !important;
+}
+
+/* --- Links --- */
+a {
+  color: #003399;
+}
+a:visited {
+  color: #800080;
+}
+a:hover {
+  color: #000;
+}
+a.text-\\[\\#FF8C00\\] {
+  color: #003399 !important;
+}
+
+/* --- Pagination --- */
+.pagination {
+  display: flex;
+  gap: 2px;
+  padding: 10px 0;
+  list-style: none;
+}
+.pagination li a,
+.pagination li span {
+  display: block;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #003399;
+  font-size: 12px;
+  text-decoration: none;
+}
+.pagination li.active span {
+  background: #003366;
+  color: #fff;
+  border-color: #003366;
+  font-weight: bold;
+}
+.pagination li.disabled span {
+  color: #999;
+  background: #f5f5f5;
+}
+.pagination li a:hover {
+  background: #e8f0fe;
+}
+
+/* --- Success Message --- */
+.bg-\\[\\#081a08\\].border-\\[\\#0f2a0f\\] {
+  background: #d4edda !important;
+  border: 1px solid #c3e6cb !important;
+  color: #155724 !important;
+}
+
+/* --- Chart Areas --- */
+.h-\\[220px\\] {
+  height: 220px;
+}
+
+/* --- Sidebar Overlay --- */
+#sidebarOverlay {
+  background: rgba(0,0,0,0.5);
+}
+
+/* --- Profile Section --- */
+#sidebar .text-xs {
+  color: #8ab8d4 !important;
+}
+#sidebar .hover\\:text-white:hover {
+  color: #fff !important;
+}
+#sidebar .bg-\\[\\#1a1a1a\\] {
+  background: #004080 !important;
+}
+#sidebar .bg-\\[\\#0d0d0d\\] {
+  background: #003d6b !important;
+}
+#sidebar .text-\\[\\#555\\] {
+  color: #8ab8d4 !important;
+}
+#sidebar .border-\\[\\#1f1f1f\\] {
+  border-color: #002244 !important;
+}
+#sidebar .shadow-lg {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* --- Pagination --- */
+.pagination {
+  font-size: 12px;
+}
+
+/* --- Toggle Switch Classic --- */
+.peer-checked\\:bg-\\[\\#FF8C00\\] {
+  background: #003366 !important;
+}
+.bg-\\[\\#1f1f1f\\] {
+  background: #ccc !important;
+}
+.bg-\\[\\#ccc\\] {
+  background: #888 !important;
+}
+.peer-checked\\:translate-x-\\[18px\\] {
+  transform: translateX(18px);
+}
